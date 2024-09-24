@@ -1,4 +1,10 @@
 class Wall:
+    def __init__(self, depth, height, width):
+        self.depth = depth
+        self.height = height
+        self.width = width
+        self.volume = self.depth * self.width * self.height
+    
     armor = 10
     height = 5
     
