@@ -5,7 +5,7 @@ def main():
     brawler_Frodo = Brawler(3,2, "Frodo")
     fight(brawler_aragorn, brawler_Gimli)
     fight(brawler_Legolas,brawler_Frodo)
-    
+
     # ?
 
 

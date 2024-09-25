@@ -42,7 +42,11 @@ class Human:
     def get_position(self):
         return (self.__pos_x, self.__pos_y)
     
-    def __init__(self, pos_x, pos_y, speed, stamina):
+    def get_name(self):
+        return self.__name
+    
+    def __init__(self, name, pos_x, pos_y, speed, stamina):
+        self.__name = name
         self.__pos_x = pos_x
         self.__pos_y = pos_y
         self.__speed = speed
